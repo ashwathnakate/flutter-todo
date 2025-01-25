@@ -1,16 +1,39 @@
-# to_do
+# TO_DO App
 
-A new Flutter project.
+A **Flutter-based** application to manage your daily tasks efficiently. This app provides an intuitive user interface and useful functionalities for task management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, and delete tasks
+- Organize tasks by categories
+- User-friendly UI with custom fonts and images
+- Cross-platform support (Android, iOS, Windows, Linux, Web, macOS)
 
-A few resources to get you started if this is your first Flutter project:
+## Folder Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project follows a standard Flutter structure:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```plaintext
+TO_DO/
+├── android/             # Android-specific files
+├── ios/                 # iOS-specific files
+├── linux/               # Linux-specific files
+├── macos/               # macOS-specific files
+├── windows/             # Windows-specific files
+├── web/                 # Web-specific files
+├── assets/              # App assets (fonts, images, etc.)
+│   ├── fonts/           # Custom fonts
+│   └── images/          # App images
+├── lib/                 # Main application code
+│   ├── data/            # Data models and repositories
+│   ├── pages/           # UI screens
+│   ├── utils/           # Utility functions and helpers
+│   └── main.dart        # App entry point
+├── test/                # Unit and widget tests
+├── .dart_tool/          # Dart-specific files
+├── .idea/               # IDE-specific files (e.g., IntelliJ)
+├── .gitignore           # Files and folders ignored by Git
+├── pubspec.yaml         # Project configuration and dependencies
+└── README.md            # Project documentation
+
+
