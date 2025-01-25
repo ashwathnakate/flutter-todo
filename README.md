@@ -35,5 +35,3 @@ TO_DO/
 ├── .gitignore           # Files and folders ignored by Git
 ├── pubspec.yaml         # Project configuration and dependencies
 └── README.md            # Project documentation
-
-
